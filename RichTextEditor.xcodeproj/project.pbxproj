@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFA6D0A314A9D16E00A230DE /* UIWebBrowserView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA6D0A214A9D16E00A230DE /* UIWebBrowserView+Additions.m */; };
+		AFA6D0A714A9D21E00A230DE /* RTEGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA6D0A614A9D21E00A230DE /* RTEGestureRecognizer.m */; };
+		AFCBE2951460515B00260493 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCBE2941460515B00260493 /* UIKit.framework */; };
+		AFCBE2971460515B00260493 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCBE2961460515B00260493 /* Foundation.framework */; };
+		AFCBE2991460515B00260493 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCBE2981460515B00260493 /* CoreGraphics.framework */; };
+		AFCBE29F1460515B00260493 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFCBE29D1460515B00260493 /* InfoPlist.strings */; };
+		AFCBE2A11460515B00260493 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCBE2A01460515B00260493 /* main.m */; };
+		AFCBE2A51460515B00260493 /* RichTextEditorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCBE2A41460515B00260493 /* RichTextEditorAppDelegate.m */; };
+		AFCBE2A81460515B00260493 /* RichTextEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCBE2A71460515B00260493 /* RichTextEditorViewController.m */; };
+		AFCBE2AB1460515B00260493 /* RichTextEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFCBE2A91460515B00260493 /* RichTextEditorViewController.xib */; };
+		AFCBE2B2146051BC00260493 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = AFCBE2B1146051BC00260493 /* index.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AFA6D0A114A9D16E00A230DE /* UIWebBrowserView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebBrowserView+Additions.h"; sourceTree = "<group>"; };
+		AFA6D0A214A9D16E00A230DE /* UIWebBrowserView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebBrowserView+Additions.m"; sourceTree = "<group>"; };
+		AFA6D0A514A9D21E00A230DE /* RTEGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTEGestureRecognizer.h; sourceTree = "<group>"; };
+		AFA6D0A614A9D21E00A230DE /* RTEGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTEGestureRecognizer.m; sourceTree = "<group>"; };
+		AFCBE2901460515B00260493 /* RichTextEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RichTextEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCBE2941460515B00260493 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFCBE2961460515B00260493 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFCBE2981460515B00260493 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFCBE29C1460515B00260493 /* RichTextEditor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RichTextEditor-Info.plist"; sourceTree = "<group>"; };
+		AFCBE29E1460515B00260493 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFCBE2A01460515B00260493 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFCBE2A21460515B00260493 /* RichTextEditor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RichTextEditor-Prefix.pch"; sourceTree = "<group>"; };
+		AFCBE2A31460515B00260493 /* RichTextEditorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RichTextEditorAppDelegate.h; sourceTree = "<group>"; };
+		AFCBE2A41460515B00260493 /* RichTextEditorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RichTextEditorAppDelegate.m; sourceTree = "<group>"; };
+		AFCBE2A61460515B00260493 /* RichTextEditorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RichTextEditorViewController.h; sourceTree = "<group>"; };
+		AFCBE2A71460515B00260493 /* RichTextEditorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RichTextEditorViewController.m; sourceTree = "<group>"; };
+		AFCBE2AA1460515B00260493 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RichTextEditorViewController.xib; sourceTree = "<group>"; };
+		AFCBE2B1146051BC00260493 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFCBE28D1460515B00260493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCBE2951460515B00260493 /* UIKit.framework in Frameworks */,
+				AFCBE2971460515B00260493 /* Foundation.framework in Frameworks */,
+				AFCBE2991460515B00260493 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFCBE2851460515B00260493 = {
+			isa = PBXGroup;
+			children = (
+				AFCBE29A1460515B00260493 /* RichTextEditor */,
+				AFCBE2931460515B00260493 /* Frameworks */,
+				AFCBE2911460515B00260493 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFCBE2911460515B00260493 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFCBE2901460515B00260493 /* RichTextEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFCBE2931460515B00260493 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFCBE2941460515B00260493 /* UIKit.framework */,
+				AFCBE2961460515B00260493 /* Foundation.framework */,
+				AFCBE2981460515B00260493 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFCBE29A1460515B00260493 /* RichTextEditor */ = {
+			isa = PBXGroup;
+			children = (
+				AFCBE2A31460515B00260493 /* RichTextEditorAppDelegate.h */,
+				AFCBE2A41460515B00260493 /* RichTextEditorAppDelegate.m */,
+				AFCBE2A61460515B00260493 /* RichTextEditorViewController.h */,
+				AFCBE2A71460515B00260493 /* RichTextEditorViewController.m */,
+				AFA6D0A114A9D16E00A230DE /* UIWebBrowserView+Additions.h */,
+				AFA6D0A214A9D16E00A230DE /* UIWebBrowserView+Additions.m */,
+				AFA6D0A514A9D21E00A230DE /* RTEGestureRecognizer.h */,
+				AFA6D0A614A9D21E00A230DE /* RTEGestureRecognizer.m */,
+				AFCBE2A91460515B00260493 /* RichTextEditorViewController.xib */,
+				AFCBE29B1460515B00260493 /* Supporting Files */,
+			);
+			path = RichTextEditor;
+			sourceTree = "<group>";
+		};
+		AFCBE29B1460515B00260493 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFCBE2B1146051BC00260493 /* index.html */,
+				AFCBE29C1460515B00260493 /* RichTextEditor-Info.plist */,
+				AFCBE29D1460515B00260493 /* InfoPlist.strings */,
+				AFCBE2A01460515B00260493 /* main.m */,
+				AFCBE2A21460515B00260493 /* RichTextEditor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFCBE28F1460515B00260493 /* RichTextEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCBE2AE1460515B00260493 /* Build configuration list for PBXNativeTarget "RichTextEditor" */;
+			buildPhases = (
+				AFCBE28C1460515B00260493 /* Sources */,
+				AFCBE28D1460515B00260493 /* Frameworks */,
+				AFCBE28E1460515B00260493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RichTextEditor;
+			productName = RichTextEditor;
+			productReference = AFCBE2901460515B00260493 /* RichTextEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFCBE2871460515B00260493 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = AFCBE28A1460515B00260493 /* Build configuration list for PBXProject "RichTextEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFCBE2851460515B00260493;
+			productRefGroup = AFCBE2911460515B00260493 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFCBE28F1460515B00260493 /* RichTextEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFCBE28E1460515B00260493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCBE29F1460515B00260493 /* InfoPlist.strings in Resources */,
+				AFCBE2AB1460515B00260493 /* RichTextEditorViewController.xib in Resources */,
+				AFCBE2B2146051BC00260493 /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFCBE28C1460515B00260493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCBE2A11460515B00260493 /* main.m in Sources */,
+				AFCBE2A51460515B00260493 /* RichTextEditorAppDelegate.m in Sources */,
+				AFCBE2A81460515B00260493 /* RichTextEditorViewController.m in Sources */,
+				AFA6D0A314A9D16E00A230DE /* UIWebBrowserView+Additions.m in Sources */,
+				AFA6D0A714A9D21E00A230DE /* RTEGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFCBE29D1460515B00260493 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFCBE29E1460515B00260493 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFCBE2A91460515B00260493 /* RichTextEditorViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFCBE2AA1460515B00260493 /* en */,
+			);
+			name = RichTextEditorViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFCBE2AC1460515B00260493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AFCBE2AD1460515B00260493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFCBE2AF1460515B00260493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RichTextEditor/RichTextEditor-Prefix.pch";
+				INFOPLIST_FILE = "RichTextEditor/RichTextEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFCBE2B01460515B00260493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RichTextEditor/RichTextEditor-Prefix.pch";
+				INFOPLIST_FILE = "RichTextEditor/RichTextEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFCBE28A1460515B00260493 /* Build configuration list for PBXProject "RichTextEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCBE2AC1460515B00260493 /* Debug */,
+				AFCBE2AD1460515B00260493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCBE2AE1460515B00260493 /* Build configuration list for PBXNativeTarget "RichTextEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCBE2AF1460515B00260493 /* Debug */,
+				AFCBE2B01460515B00260493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFCBE2871460515B00260493 /* Project object */;
+}
